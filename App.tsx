@@ -34,6 +34,7 @@ export default function App() {
     <View style={styles.container}>
 
       <MapView
+        provider={PROVIDER_GOOGLE}
         style={{ width: '100%', height: '100%' }}
         region={{
           latitude: location.coords.latitude,
